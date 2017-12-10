@@ -24,7 +24,7 @@ gulp.task("release-build", ["clean"], callback => {
 });
 
 gulp.task("clean", () => {
-    return del("lib/");
+    return del("lib/*");
 });
 
 gulp.task("ts", callback => {
